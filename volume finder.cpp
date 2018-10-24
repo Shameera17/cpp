@@ -16,7 +16,9 @@ int main()
 	vol = pi * prad;/*volume of the tank in m^3*/
 	fvol = vol * 1000;/*volume of the tank in litres*/
 
-	cout << "the volume of the tank" << fvol << "L(" << vol << "m^3)\n";
+	cout << "the volume of the tank" << fvol << "L(" << vol << "m^3)"<<endl;
+	cout<<'\n';
+	
 	system("pause");
 return 0;
 
